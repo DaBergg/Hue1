@@ -8,7 +8,7 @@ public class Main implements PrimeSieve{
 
     @Override
     public boolean isPrime(int p) {
-        return false;
+
     }
 
     @Override
