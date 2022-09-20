@@ -1,10 +1,15 @@
 package net.htlgkr.berghammert;
 
+import java.util.Scanner;
+
 public class Main implements PrimeSieve{
 
     public static int obergrenze;
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Obergrenze eingeben:");
+        obergrenze = sc.nextInt();
 
     }
 
