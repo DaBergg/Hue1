@@ -8,7 +8,16 @@ public class Main implements PrimeSieve{
 
     @Override
     public boolean isPrime(int p) {
-
+        boolean prime = false;
+        for (int i = 0; i <= p; i++) {
+            prime = true;
+            for(int j = 2; j < i && prime; j++) {
+                if((i % j)==0) {
+                    prime = false;
+                }
+            }
+        }
+        return prime;
     }
 
     @Override
