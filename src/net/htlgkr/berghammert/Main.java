@@ -7,10 +7,11 @@ public class Main implements PrimeSieve{
     public static int obergrenze;
 
     public static void main(String[] args) {
+        Main m = new Main();
         Scanner sc = new Scanner(System.in);
         System.out.println("Obergrenze eingeben:");
         obergrenze = sc.nextInt();
-
+        m.printPrimes();
     }
 
     @Override
